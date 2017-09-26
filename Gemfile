@@ -13,6 +13,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+gem 'minitest', group: :test
+gem 'minitest-reporters', group: :test
 
 
 group :development, :test do
@@ -32,5 +34,6 @@ end
 group :production do
   gem 'pg', '0.18.4'
 end
+
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
